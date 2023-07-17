@@ -1,11 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../rsschool-cv/img/favicon-32x32.png" type="image/x-icon">
+    <title>BPL</title>
 </head>
+
 <body>
-    <img src="img/photo_2023-07-17_10-13-41.jpg" alt="">
+    <div class="wrapper">
+        <header class="head">
+            <div class="container">
+                <div class="bpl">
+                    <h1>
+                        <a class="head__logo" href="#">Brooklyn Public Library</a>
+                    </h1>
+                    <nav class="head__nav">
+                        <ul class="navigation">
+                            <li><a class="link" href="#about">About</a></li>
+                            <li><a class="link" href="#favorites">Favorites</a></li>
+                            <li><a class="link" href="#coffee_shop">Coffee shop</a></li>
+                            <li><a class="link" href="#contacts">Contacts</a></li>
+                            <li><a class="link" href="#library_card">Library Card</a></li>
+                        </ul>
+                    </nav>
+                    <div class="profil">
+                        <a href="#">
+                            <img src="img/Subtract.svg" alt="icon__profile">
+                        </a>
+                        <nav class="navigation__profil">
+                            <ul class="login">
+                                <li>
+                                    <p class="login__profil">Profile</p>
+                                </li>
+                                <li><a class="profil__link" href="#">Log In</a></li>
+                                <li><a class="profil__link" href="#">Register</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="welcome">
+                <div class="container">
+                    <div class="welcome__bacgraund">
+                        <div class="welcome__text">
+                            <p>Welcome
+                                <br>
+                                to the Brooklyn
+                                <br>
+                                Library
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about">
+                        <h2>About</h2>
+                        <p class="about__text">The Brooklyn Library is a free workspace, a large number of books and a
+                            cozy coffee shop inside</p>
+                        <div class="about__img">
+                            <img class="about__img" src="../rsschool-cv/img/about/image 1.png" alt="girl and library">
+                            <img class="about__img" src="../rsschool-cv/img/about/image 2.png" alt="sculptures">
+                            <img class="about__img" src="../rsschool-cv/img/about/image 3.png" alt="library">
+                            <img class="about__img img" src="../rsschool-cv/img/about/image 4.png" alt="library">
+                            <img class="about__img img" src="../rsschool-cv/img/about/image 5.png" alt="library">
+                        </div>
+                        <div class="about__point">
+                            <div class="point__button">
+                                <button class="about__point--button"></button>
+                            </div>
+                            <div class="point__button">
+                                <button class="about__point--button"></button>
+                            </div>
+                            <div class="point__button">
+                                <button class="about__point--button"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="favorites" id="favorites">
+                <div class="container">
+                    <div class="favorites_content">
+                        <h2>Favorites</h2>
+                        <div class="favorites__pick">
+                            <h4>Pick favorites of season</h4>
+                            <div class="season">
+                                <div class="season__cvartal">
+                                    <input name="season" id="Winter" type="radio" value="Winter">
+                                    <lable for="Winter" class="season__cvartal cvartal">Winter</lable>
+                                </div>
+                                <div class="season__cvartal">
+                                    <input name="season" id="Spring" type="radio" value="Spring">
+                                    <lable for="Spring" class="season__cvartal cvartal">Spring</lable>
+                                </div>
+                                <div class="season__cvartal">
+                                    <input name="season" id="Summer" type="radio" value="Summer">
+                                    <lable for="Summer" class="season__cvartal cvartal">Summer</lable>
+                                </div>
+                                <div class="season__cvartal">
+                                    <input name="season" id="Autumn" type="radio" value="Autumn">
+                                    <lable for="Autumn" class="season__cvartal cvartal">Autumn</lable>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="favorites__items">
+                            <div class="items">
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book.png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">The Book Eaters
+                                            By Sunyi Dean</div>
+                                        <p class="items__aboutbook">An unusual sci-fi story about a book eater woman who
+                                            tries desperately to save her dangerous mind-eater son from tradition and
+                                            certain death. Complete with dysfunctional family values, light Sapphic
+                                            romance, and a strong, complex protagonist. Not for the faint of heart. </p>
+                                        <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (1).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Cackle
+                                            By Rachel Harrison</div>
+                                        <p class="items__aboutbook">Are your Halloween movies of choice The Witches of
+                                            Eastwick and Practical Magic? Look no further than here - where a woman
+                                            recovering from a breakup moves to a quaint town in upstate New York and
+                                            befriends a beautiful witch.</p>
+                                        <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (3).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Dante: Poet of the Secular World
+                                            By Erich Auerbach</div>
+                                        <p class="items__aboutbook">Auerbach's engaging book places the 'Comedy' within
+                                            the tradition of epic, tragedy, and philosophy in general, arguing for
+                                            Dante's uniqueness as one who raised the individual and his drama of soul
+                                            into something of divine significance—an inspired introduction to Dante's
+                                            main themes.</p>
+                                        <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (2).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">The Last Queen
+                                            By Clive Irving</div>
+                                        <p class="items__aboutbook">A timely and revelatory new biography of Queen
+                                            Elizabeth (and her family) exploring how the Windsors have evolved and
+                                            thrived as the modern world has changed around them.</p>
+                                        <button name="button" disabled class="item__button--dislable">Own</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book(4).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">The Body
+                                            By Stephen King</div>
+                                        <p class="items__aboutbook">Powerful novel that takes you back to a nostalgic
+                                            time, exploring both the beauty and danger and loss of innocence that is
+                                            youth.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (5).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Carry: A Memoir of Survival on Stolen Land
+                                            By Toni Jenson</div>
+                                        <p class="items__aboutbook">This memoir about the author's relationship with gun
+                                            violence feels both expansive and intimate, resulting in a lyrical
+                                            indictment of the way things are.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (6).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Days of Distraction
+                                            By Alexandra Chang</div>
+                                        <p class="items__aboutbook">A sardonic view of Silicon Valley culture, a
+                                            meditation on race, and a journal of displacement and belonging, all in one
+                                            form-defying package of spare prose.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (7).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Dominicana
+                                            By Angie Cruz</div>
+                                        <p class="items__aboutbook">A fascinating story of a teenage girl who marries a
+                                            man twice her age with the promise to bring her to America. Her marriage is
+                                            an opportunity for her family to eventually immigrate. For fans of Isabel
+                                            Allende and Julia Alvarez.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (8).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Crude: A Memoir
+                                            By Pablo Fajardo & ​​Sophie Tardy-Joubert</div>
+                                        <p class="items__aboutbook">Drawing and color by Damien Roudeau | This book
+                                            illustrates the struggles of a group of indigenous Ecuadoreans as they try
+                                            to sue the ChevronTexaco company for damage their oil fields did to the
+                                            Amazon and her people</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (9).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Let My People Go Surfing
+                                            By Yvon Chouinard</div>
+                                        <p class="items__aboutbook">Chouinard—climber, businessman,
+                                            environmentalist—shares tales of courage and persistence from his experience
+                                            of founding and leading Patagonia, Inc. Full title: Let My People Go
+                                            Surfing: The Education of a Reluctant Businessman, Including 10 More Years
+                                            of Business Unusual.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (10).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">The Octopus Museum: Poems
+                                            By Brenda Shaughnessy</div>
+                                        <p class="items__aboutbook">This collection of bold and scathingly beautiful
+                                            feminist poems imagines what comes after our current age of environmental
+                                            destruction, racism, sexism, and divisive politics.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (11).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Shark Dialogues: A Novel
+                                            By Kiana Davenport</div>
+                                        <p class="items__aboutbook">An epic saga of seven generations of one family
+                                            encompasses the tumultuous history of Hawaii as a Hawaiian woman gathers her
+                                            four granddaughters together in an erotic tale of villains and dreamers,
+                                            queens and revolutionaries, lepers and healers.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (13).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Casual Conversation
+                                            By Renia White</div>
+                                        <p class="items__aboutbook">White's impressive debut collection takes readers
+                                            through and beyond the concepts of conversation and the casual - both what
+                                            we say to each other and what we don't, examining the possibilities around
+                                            how we construct and communicate identity. .</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (14).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">The Great Fire
+                                            By Lou Ureneck</div>
+                                        <p class="items__aboutbook">The harrowing story of an ordinary American and a
+                                            principled Naval officer who, horrified by the burning of Smyrna, led an
+                                            extraordinary rescue effort that saved a quarter of a million refugees from
+                                            the Armenian Genocide</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (15).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Rickey: The Life and Legend
+                                            By Howard Bryant</div>
+                                        <p class="items__aboutbook">With the fall rolling around, one can't help but
+                                            think of baseball's postseason coming up! And what better way to prepare for
+                                            it than reading the biography of one of the game's all-time greatest
+                                            performers, the Man of Steal, Rickey Henderson?.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                                <div class="items__grid">
+                                    <img class="items__imgs" src="../rsschool-cv/img/favorites/book (16).png" alt="">
+                                    <div class="items__wrapper">
+                                        <div class="items__title">Staff Picks</div>
+                                        <div class="item__namebook">Slug: And Other Stories
+                                            By Megan Milks</div>
+                                        <p class="items__aboutbook">Exes Tegan and Sara find themselves chained together
+                                            by hairballs of codependency. A father and child experience the shared
+                                            trauma of giving birth to gods from their wounds.</p>
+                                            <button name="button" type="submit" class="item__button">Buy</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="coffeeshop" id="coffee_shop">
+                <div class="container">
+                    <div class="coffeeshop__content">
+                        <h2>Coffee shop</h2>
+                        <p class="coffeeshop__text">In our library, we have of cozy coffee shop, welcoming in customers
+                            with frothy cappuccinos and friendly conversation. <br>
+                            You can get a favorite book and read in coffee shop. Our barista to cook you best coffee,
+                            and also you can try desserts <br> from bakery.</p>
+                        <div class="menu">
+                            <div class="menu__left">
+                                <h4 class="menu__title">Coffee & Tea </h4>
+                                <div class="menu__name">
+                                    <div class="coffe">
+                                        <div class="name__position">Cold Brew Coffee</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$3</div>
+                                    </div>
+                                    <div class="coffe">
+                                        <div class="name__position">French Press Pot</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$5</div>
+                                    </div>
+                                    <div class="coffe">
+                                        <div class="name__position">Espresso</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$2</div>
+                                    </div>
+                                    <div class="coffe">
+                                        <div class="name__position">Cappuccino</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$4</div>
+                                    </div>
+                                    <div class="coffe">
+                                        <div class="name__position">Hot tea</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$2</div>
+                                    </div>
+                                    <div class="coffe">
+                                        <div class="name__position">Cold tea</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$2</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu__right">
+                                <h4 class="menu__title">Desserts & Cakes </h4>
+                                <div class="menu__name">
+                                    <div class="desserts">
+                                        <div class="name__position">Forest Gateau</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$16</div>
+                                    </div>
+                                    <div class="desserts">
+                                        <div class="name__position">Blue Moon</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$16</div>
+                                    </div>
+                                    <div class="desserts">
+                                        <div class="name__position">Truffle Cake</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$15</div>
+                                    </div>
+                                    <div class="desserts">
+                                        <div class="name__position">Chocolate Cake</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$18</div>
+                                    </div>
+                                    <div class="desserts">
+                                        <div class="name__position">Poet’s Dream Cake</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$16</div>
+                                    </div>
+                                    <div class="desserts">
+                                        <div class="name__position">Pineapple Cake</div>
+                                        <div class="hr"></div>
+                                        <div class="price">$14</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="container">
+                    <h2 class="contacts__title">Our Contacts</h2>
+                    <div class="contacts__content">
+                        <div class="contacts__left">
+                            <h5>For all Library inquiries:</h5>
+                            <div class="item__contacts">
+                                <p>Please call <a href="tel:617730-2370">(617) 730-2370</a></p>
+                                <p>For TTY service, please call <a href="tel:617730-2370">(617) 730-2370</a></p>
+                                <p>Putterham Library: <a href="tel:617730-2385">(617) 730-2385</a></p>
+                            </div>
+                            <h5 class="contacts__name"><a href="mailto:AmandaHirst@gmail.com" target="_blank">Senior
+                                    Staff</a></h5>
+                            <p>Library Director: <a href="mailtoAmandaHirst@gmail.com" target="_blank">Amanda Hirst</a>
+                            </p>
+                        </div>
+                        <div class="contacts__right">
+                            <img src="../rsschool-cv/img/Rectangle 4.png" alt="map">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="library_card" id="library_card">
+                <div class="container">
+                    <h2 class="librarycard__title">Digital Library Cards</h2>
+                    <div class="librarycard__content">
+                        <div class="content__item">
+                            <div class="content__item-title">Find your Library card</div>
+                            <div class="item__border">
+                                <div class="item__border-bacg">
+                                    <div class="input__title">Brooklyn Public Library</div>
+                                    <input class="item__input" type="text" placeholder="Reader's name">
+                                    <input class="item__input" type="text" placeholder="Card number">
+                                </div>
+                                <div class="library__button">
+                                    <button class="card__button" type="submit" name="button">Check the card</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__item2">
+                            <div class="item__title">Get a reader card</div>
+                            <p class="item__text">You will be able to see a reader card after
+                                <br>
+                                logging into account or
+                                you can register a new
+                                <br>
+                                account
+                            </p>
+                            <div class="item__profil">
+                                <button class="profil__button" type="submit" name="button">Sign Up</button>
+                                <button class="profil__button" type="submit" name="button">Log in</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__top">
+                        <div class="footer__item">
+                            <div class="footer__item-text">286 Cadman Plaza, New York, NY 11238, United States</div>
+                            <div class="footer__item-icon">
+                                <a href="#" target="_blank"><img src="img/Vector.svg" alt="Twitter"></a>
+                                <a href="#" target="_blank"><img src="img/u_instagram.svg" alt="Instagram"></a>
+                                <a href="#" target="_blank"><img src="img/u_facebook-f.svg" alt="Facebook"></a>
+                            </div>
+                        </div>
+                        <div class="footer__item2">
+                            <div class="footer__item-work">Mon - Fri
+                                <br>
+                                08:00 am - 07:00 pm
+                            </div>
+                            <div class="footer__item-work">Sat - Sun
+                                <br>
+                                10:00 am - 06:00 pm
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__line"></div>
+                    <div class="footer__bottom">
+                        <p class="footer__bottom-text">2023</p>
+                        <p class="footer__bottom-text"><a href="https://rs.school/js-stage0/" target="_blank">The
+                                Rolling Scopes School</a></p>
+                        <a href="https://github.com/iLya-20" target="_blank">iLya-20</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+<script src="../library/js/index.js"></script>
 </html>
